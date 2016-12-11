@@ -6,11 +6,3 @@ img {
     margin-right: -50%;
     transform: translate(-50%, 0);
 }
-
-img:not(.picked) {
-    display: none;
-}
-
-body {
-    background: #079a26;
-}
