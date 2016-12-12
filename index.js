@@ -32,13 +32,6 @@
         var rgba = 'rgba(' + [r, g, b, (a / 255).toFixed(3)].join(',') + ')';
         document.body.style.backgroundColor = rgba;
 
-        // Ensure a sensible height
-        var maxHeight = 350;
-        if (img.height > maxHeight) {
-            img.style.height = maxHeight.toFixed(0) + 'px';
-            img.style.width = 'auto';
-        }
-
         document.body.appendChild(img);
     };
     img.onerror = function(e) {

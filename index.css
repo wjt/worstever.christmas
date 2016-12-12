@@ -5,4 +5,9 @@ img {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
+
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
 }
