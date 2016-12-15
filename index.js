@@ -32,7 +32,10 @@
         var rgba = 'rgba(' + [r, g, b, (a / 255).toFixed(3)].join(',') + ')';
         document.body.style.backgroundColor = rgba;
 
-        document.body.appendChild(img);
+        var a = document.createElement('a');
+        a.href = '.';
+        a.appendChild(img);
+        document.body.appendChild(a);
     };
     img.onerror = function(e) {
         console.error("extremely unfortunate", i, url, e);
