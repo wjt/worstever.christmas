@@ -19,6 +19,7 @@
     var url = 'img/' + urls[i];
 
     var img = document.createElement('img');
+    img.classList.add('really-awful');
     img.onload = function() {
         // Match the top-left pixel's background colour
         var canvas = document.createElement('canvas');
