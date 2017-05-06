@@ -5,6 +5,7 @@
         'beard-hair-redistribution.png',
         'millerdl_bday.jpg',
         'millerdl_kwoo.png',
+        'millerdl_birb.png',
         'millerdl.png',
         'millerdl_question.png',
         'millerdl_suit.png',
