@@ -4,8 +4,10 @@
     var urls = [
         'beard-hair-redistribution.png',
         'millerdl_bday.jpg',
-        'millerdl_kwoo.png',
+        'millerdl_birb_beard_grin.jpg',
+        'millerdl_birb_beard.jpg',
         'millerdl_birb.png',
+        'millerdl_kwoo.png',
         'millerdl.png',
         'millerdl_question.png',
         'millerdl_suit.png',
