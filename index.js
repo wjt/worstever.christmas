@@ -7,6 +7,7 @@
         'millerdl_birb_beard_grin.jpg',
         'millerdl_birb_beard.jpg',
         'millerdl_birb.png',
+        'millerdl_chewbacca.png',
         'millerdl_kwoo.png',
         'millerdl.png',
         'millerdl_question.png',
