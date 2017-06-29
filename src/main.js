@@ -1,17 +1,3 @@
-;(function() {
-"use strict";
-var _paq = _paq || [];
-// tracker methods like "setCustomDimension" should be called before "trackPageView"
-_paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
-(function() {
-  var u="//stats.wjt.me.uk/";
-  _paq.push(['setTrackerUrl', u+'piwik.php']);
-  _paq.push(['setSiteId', '98']);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-})();
-var urls = ["santa.png", "millerdl_question.png", "millerdl_viking.jpg", "millerdl_kwoo.png", "millerdl_bday.jpg", "millerdl_chewbacca.png", "millerdl_birb.png", "millerdl.png", "president-millerdl.png", "millerdl_suit.png", "millerdl_trotsky.png", "beard-hair-redistribution.png", "millerdl_birb_beard_grin.jpg", "millerdl_birb_beard.jpg"];
 var link = document.querySelector('.somewhat-unfortunate');
 link.addEventListener('click', function(event) {
     event.preventDefault();
@@ -46,4 +32,3 @@ function update() {
     };
     img.src = url;
 }
-}());
