@@ -1,8 +1,8 @@
 language: python
 python:
   - "3.4"
-install:
-  - make
+install: true
+script: make
 deploy:
   provider: pages
   skip_cleanup: true
