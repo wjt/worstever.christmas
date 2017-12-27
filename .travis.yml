@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.4"
+install: true
+script: make
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
